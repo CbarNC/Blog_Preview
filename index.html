@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
@@ -10,21 +10,73 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
+    a:hover { color: rgb(246, 207, 66);}
+    .attribution { font-size: 11px; text-align: center; 
+    margin-top: auto;}
     .attribution a { color: hsl(228, 45%, 44%); }
+    body { 
+      background-color: rgb(246, 207, 66);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: center; }
+    .card {
+  font-weight: bold;
+  width: 300px;
+  height: 500px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: left;
+  box-shadow: 10px 10px;
+  }
+    
+    .card-image {
+      background: url(assets/images/illustration-article.svg) no-repeat center/cover;
+      height: 40%;
+      background-size: 90%;
+      border-radius: 50px;
+      
+
+      
+    }
+
+    .card-content {
+      padding: 20px;
+      height: 50%;
+      
+    }
+    
+    .learning{
+      background-color: rgb(246, 207, 66);
+      overflow: hidden;
+      width: 30%;
+      text-align:center;
+      font-style:italic;
+
+
+    }
   </style>
 </head>
 <body>
-
-  Learning
-
-  Published 21 Dec 2023
-
-  HTML & CSS foundations
-
-  These languages are the backbone of every website, defining structure, content, and presentation.
-
-  Greg Hooper
+  <table>
+    <tr>
+      <td class="card">
+        <div class="card-image"></div>
+        <div class="card-content">
+          <p class="learning">Learning</p>
+          <p style="font-weight: lighter;">Published 21 Dec 2023</p>
+          <p style="font-weight: bold; font-size: larger;">HTML & CSS foundations</p>
+          <p style="width: 300px; height: auto; opacity: 0.5;">These languages are the backbone of every 
+            website, defining structure, content, and 
+            presentation.</p>
+          <p class="author"><img src="assets/images/image-avatar.webp" width="30" height="30" style="vertical-align: middle;">
+            Greg Hooper</p>
+        </div>
+      </td>
+    </tr>
+  </table>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
