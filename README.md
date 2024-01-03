@@ -23,15 +23,7 @@ Users should be able to:
 - See hover and focus states for all interactive elements on the page
 
 ### Screenshot
-
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
+![](https://github.com/CbarNC/Blog_Preview/blob/main/Screenshot_final.jpeg)
 
 ### Links
 
@@ -67,7 +59,7 @@ The Most I learned from this project was being able to move objects/ things on a
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [W3 Schools](https://www.w3schools.com/html/html_css.asp)- Get things like the movement of objects and how styles works with html/css
+- [Code Cademy](https://www.codecademy.com/courses/learn-css/lessons/css-visual-rules) - This is an amazing article which helped me finally understand HTML and CSS Visually. I'd recommend it to anyone still learning this concept.
 
 
